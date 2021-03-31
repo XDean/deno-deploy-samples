@@ -2,6 +2,11 @@
 
 Samples for [Deno Deploy](https://deno.com/deploy)
 
+- [Official Samples](#official-samples)
+- [Additional Samples](#additional-samples)
+    - Static File
+    - React App
+
 ## Official Samples
 
 - [Hello World](https://deno.com/deploy/docs/hello-world)
