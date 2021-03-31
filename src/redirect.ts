@@ -1,4 +1,4 @@
-function handleRequest(request: any): Response {
+function handleRequest(request: Request): Response {
   const {pathname} = new URL(request.url);
 
   if (pathname.startsWith("/deno")) {
@@ -26,6 +26,6 @@ function handleRequest(request: any): Response {
   }
 }
 
-addEventListener("fetch", (event) => {
+addEventListener("fetch", (event: FetchEvent) => {
   event.respondWith(handleRequest(event.request));
 });
