@@ -23,10 +23,10 @@ Samples for [Deno Deploy](https://deno.com/deploy)
     - Demo
         - https://sample-redirect.deno.dev/deno
         - https://sample-redirect.deno.dev/deploy
-- [Get client IP address]
+- [Get client IP address](https://deno.com/deploy/docs/example-client-ip)
     - [Source Code](src/ip.ts)
     - Demo: https://sample-ip.deno.dev/
-- [Make an outbound request]
+- [Make an outbound request](https://deno.com/deploy/docs/example-outbound)
     - [Source Code](src/fetch.ts)
     - Demo: https://sample-fetch.deno.dev/
 
