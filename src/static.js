@@ -1,3 +1,4 @@
+console.log(Deno)
 async function handleRequest(request) {
   const {pathname} = new URL(request.url)
   const filepath = '.' + pathname.replaceAll('_/', '../')
