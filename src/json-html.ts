@@ -17,10 +17,7 @@ function handleRequest(request: any): Response {
     });
   } else {
     return new Response("not found", {
-      status: 404,
-      headers: {
-        "content-type": "application/json; charset=UTF-8",
-      },
+      status: 404
     });
   }
 }
