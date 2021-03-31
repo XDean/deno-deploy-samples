@@ -32,5 +32,11 @@ Samples for [Deno Deploy](https://deno.com/deploy)
 
 ## Additional Samples
 
+- Static File
+    - [Source Code](src/static.js)
+    - Demo
+        - https://sample-static.deno.dev/static.js
+        - https://sample-static.deno.dev/react/static/images/logo.svg
 - React App
-    - TODO
+    - [Source Code](src/react/react.js)
+    - Demo: https://sample-react.deno.dev/
